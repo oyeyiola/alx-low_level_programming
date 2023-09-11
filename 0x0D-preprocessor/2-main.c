@@ -1,7 +1,10 @@
-#include <stdio.h>
-
-int main (void)
+#include <studio.h>
+/**
+  * main - print the name of the file
+* Return: Always 0 (Success)
+*/
+Int main (void)
 {
-	printf("The name of the compiled file is: %s", __FILE__);
-	return 0;
+printf("%s\n", __FILE__);
+return (0);
 }
